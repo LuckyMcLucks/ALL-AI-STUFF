@@ -1,4 +1,4 @@
-// File: /home/based/Downloads/swak_nextjs/src/app/inner_pages/page_product_single/page.js
+// File: /home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/app/inner_pages/page_product_single/page.js
 import * as entry from '../../../../../src/app/inner_pages/page_product_single/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

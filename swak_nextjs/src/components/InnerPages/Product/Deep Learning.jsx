@@ -8,6 +8,7 @@ function Single() {
   const [favourites, setFavourites] = useState("");
   const [likes, setLikes] = useState("");
   const [loading, setLoading] = useState(false);
+  const [result, setResult] = useState(null);
 
   const handleClick = async () => {
     try {
@@ -18,22 +19,28 @@ function Single() {
 
       setLoading(true);
 
-      const res = await fetch("/api/your-endpoint", {
+      const meta = [
+        Number(followers) || 0,
+        Number(retweets) || 0,
+        Number(favourites) || 0,
+        Number(likes) || 0
+      ];
+
+      const res = await fetch("http://localhost:8000/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
           text,
-          followers,
-          retweets,
-          favourites,
-          likes,
+          meta_features: meta,
         }),
       });
 
       const data = await res.json();
-      console.log(data); // handle result later
+      console.log(data);
+
+      setResult(data);
 
     } catch (err) {
       console.error(err);
@@ -42,12 +49,18 @@ function Single() {
     }
   };
 
+  // ✅ Safe derived values
+  const isBot = result?.prediction === true;
+  const botProb = result?.confidence ?? 0;
+  const humanProb = 1 - botProb;
+
   return (
     <section className="tc-product-single-style1">
       <div className="main-info mb-100">
         <div className="container">
           <div className="row gx-0">
 
+            {/* LEFT SIDE */}
             <div className="col-lg-6 offset-lg-1">
               <div className="product-info">
 
@@ -55,26 +68,24 @@ function Single() {
                   Deep Learning Bot Tweet Classifier
                 </h3>
 
-                {/* Tweet Text */}
                 <label>Tweet</label>
-<textarea
-  value={text}
-  onChange={(e) => setText(e.target.value)}
-  placeholder="Enter your tweet here..."
-  rows={4}
-  style={{
-    display: "block",
-    width: "100%",
-    minHeight: "120px",
-    resize: "vertical", // user can drag to expand
-    padding: "10px",
-    marginBottom: "15px",
-    borderRadius: "6px",
-    border: "1px solid #ccc"
-  }}
-/>
+                <textarea
+                  value={text}
+                  onChange={(e) => setText(e.target.value)}
+                  placeholder="Enter your tweet here..."
+                  rows={4}
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    minHeight: "120px",
+                    resize: "vertical",
+                    padding: "10px",
+                    marginBottom: "15px",
+                    borderRadius: "6px",
+                    border: "1px solid #ccc"
+                  }}
+                />
 
-                {/* Followers */}
                 <label>Followers</label>
                 <input
                   type="number"
@@ -84,7 +95,6 @@ function Single() {
                   style={{ display: "block", width: "100%", marginBottom: "15px" }}
                 />
 
-                {/* Retweets */}
                 <label>Retweets</label>
                 <input
                   type="number"
@@ -94,7 +104,6 @@ function Single() {
                   style={{ display: "block", width: "100%", marginBottom: "15px" }}
                 />
 
-                {/* Favourites */}
                 <label>Favourites</label>
                 <input
                   type="number"
@@ -104,7 +113,6 @@ function Single() {
                   style={{ display: "block", width: "100%", marginBottom: "15px" }}
                 />
 
-                {/* Likes */}
                 <label>Likes</label>
                 <input
                   type="number"
@@ -128,6 +136,59 @@ function Single() {
                 >
                   {loading ? "Processing..." : "Run Detection"}
                 </button>
+
+              </div>
+            </div>
+
+            {/* RIGHT SIDE */}
+            <div className="col-lg-4">
+              <div style={{
+                padding: "20px",
+                border: "1px solid #eee",
+                borderRadius: "10px",
+                marginTop: "60px"
+              }}>
+
+                <h4>Detection Result</h4>
+
+                {loading ? (
+                  <p>Analyzing...</p>
+                ) : !result ? (
+                  <p>No result yet</p>
+                ) : (
+                  <>
+                    {/* LABEL */}
+                    <h2 style={{ color: isBot ? "red" : "green" }}>
+                      {isBot ? "BOT" : "HUMAN"}
+                    </h2>
+
+                    {/* PROBABILITIES */}
+                    <p>
+                      Bot: {(botProb * 100).toFixed(1)}% | Human: {(humanProb * 100).toFixed(1)}%
+                    </p>
+
+                    {/* SPLIT BAR */}
+                    <div style={{
+                      width: "100%",
+                      height: "20px",
+                      background: "#eee",
+                      borderRadius: "10px",
+                      overflow: "hidden",
+                      display: "flex"
+                    }}>
+                      <div style={{
+                        width: `${botProb * 100}%`,
+                        background: "red",
+                        transition: "width 0.4s ease"
+                      }} />
+                      <div style={{
+                        width: `${humanProb * 100}%`,
+                        background: "green",
+                        transition: "width 0.4s ease"
+                      }} />
+                    </div>
+                  </>
+                )}
 
               </div>
             </div>

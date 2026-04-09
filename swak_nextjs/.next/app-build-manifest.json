@@ -15,6 +15,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/inner_pages/page_product_single/page.js"
+    ],
+    "/inner_pages/DeepLearning/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/inner_pages/DeepLearning/page.js"
+    ],
+    "/inner_pages/Audio/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/inner_pages/Audio/page.js"
     ]
   }
 }
