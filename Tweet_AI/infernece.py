@@ -5,6 +5,9 @@ import torch.nn as nn
 import torch
 from transformers import BertTokenizer, BertModel, pipeline
 import numpy as np
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 
 pretrained_weights = "bert-base-cased"
 tokenizer = BertTokenizer.from_pretrained(pretrained_weights)
@@ -69,6 +72,17 @@ model.eval()
 from fastapi import FastAPI
 from pydantic import BaseModel
 app = FastAPI()
+origins = [
+    "http://localhost:3000",  # React dev server
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],  # allow POST, OPTIONS, etc.
+    allow_headers=["*"],
+)
 class TweetRequest(BaseModel):
     text: str
     meta_features: list[float]
@@ -90,7 +104,7 @@ def predict(request: TweetRequest):
         print(pred , conf)
         
 
-    return {"prediction": pred , "confidence": conf}
+    return {"prediction": str(pred), "confidence": conf}
 
 # if __name__ == "__main__":
 #     # Example usage

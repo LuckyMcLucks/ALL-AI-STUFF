@@ -379,11 +379,21 @@ files = []
 import os
 from fastapi import FastAPI, UploadFile, File
 import torch
-
+from fastapi.middleware.cors import CORSMiddleware
 import tempfile
 
 app = FastAPI()
+origins = [
+    "http://localhost:3000",  # React dev server
+]
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],  # allow POST, OPTIONS, etc.
+    allow_headers=["*"],
+)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 ensemble.to(device)
