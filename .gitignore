@@ -1,2 +1,4 @@
 swak_nextjs/.next/cache/webpack/*
 swak_nextjs/node_modules/*
+Voice-Ai/__pycache__/*
+Tweet_AI/__pycache__/*
