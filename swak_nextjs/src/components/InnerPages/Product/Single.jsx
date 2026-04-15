@@ -5,44 +5,51 @@ import { useRouter } from "next/navigation";
 function Single() {
   const [image, setImage] = useState(null);
   const [loading, setLoading] = useState(false);
- 
+  const [imageFile, setImageFile] = useState(null);
+  const [imagePreview, setImagePreview] = useState(null);
   const handleChange = (e) => {
     const file = e.target.files[0];
     if (file) {
-      setImage(URL.createObjectURL(file));
+      setImage(file); // ✅ real file
+      setImagePreview(URL.createObjectURL(file)); // ✅ preview only
+      
     }
   };
 
   const handleClick = async () => {
-    try {
-      if (!imageFile) {
-        alert("Please upload an image first");
-        return;
-      }
-
-      setLoading(true);
-
-      const formData = new FormData();
-      formData.append("file", imageFile);
-
-      const res = await fetch("/api/your-endpoint", {
-        method: "POST",
-        body: formData,
-      });
-
-      // assuming API returns an image (blob)
-      const blob = await res.blob();
-      const newImageUrl = URL.createObjectURL(blob);
-
-      // ✅ replace image with API result
-      setImage(newImageUrl);
-
-    } catch (err) {
-      console.error(err);
-    } finally {
-      setLoading(false);
+  try {
+    if (!image) {
+      alert("Please upload an image first");
+      return;
     }
-  };
+
+    setLoading(true);
+
+    const formData = new FormData();
+    formData.append("file", image);
+
+    const res = await fetch("http://localhost:8000/predict-image", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (!res.ok) {
+      const text = await res.text();
+      console.error(text);
+      throw new Error("API failed");
+    }
+
+    const blob = await res.blob();
+    const newImageUrl = URL.createObjectURL(blob);
+
+    setImagePreview(newImageUrl);
+
+  } catch (err) {
+    console.error(err);
+  } finally {
+    setLoading(false);
+  }
+};
 
   return (
     <section className="tc-product-single-style1">
@@ -63,7 +70,7 @@ function Single() {
                   />
 
                   <img
-                    src={image || "/inner_pages/assets/img/products/upload.png"}
+                    src={imagePreview || "/inner_pages/assets/img/products/upload.png"}
                     alt=""
                     style={{
                       cursor: "pointer",

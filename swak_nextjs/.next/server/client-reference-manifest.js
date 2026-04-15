@@ -235,7 +235,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -243,7 +243,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -251,7 +251,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       }
@@ -261,7 +261,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "*",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -269,7 +269,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -277,7 +277,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "default",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -285,7 +285,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "handleClientScriptLoad",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -293,33 +293,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "initScriptLoader",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Common/Cursor.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Common/Cursor.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Common/Cursor.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Common/Cursor.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       }
@@ -329,7 +303,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/Common/Loader.jsx",
         "name": "*",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -337,7 +311,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/Common/Loader.jsx",
         "name": "",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -345,163 +319,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/Common/Loader.jsx",
         "name": "default",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Common/ProgressScroll.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Common/ProgressScroll.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Common/ProgressScroll.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Common/ProgressScroll.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Common/ThemeSwitcher.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Common/ThemeSwitcher.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Common/ThemeSwitcher.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Common/ThemeSwitcher.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Preview/CallToAction.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Preview/CallToAction.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Preview/CallToAction.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Preview/CallToAction.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Preview/Navbar.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Preview/Navbar.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Preview/Navbar.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Preview/Navbar.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Preview/Overlay.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Preview/Overlay.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Preview/Overlay.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Preview/Overlay.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Preview/Pages.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Preview/Pages.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Preview/Pages.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Preview/Pages.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       }
@@ -511,7 +329,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/Common/MouseCursor.jsx",
         "name": "*",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -519,7 +337,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/Common/MouseCursor.jsx",
         "name": "",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -527,7 +345,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/Common/MouseCursor.jsx",
         "name": "default",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       }
@@ -537,7 +355,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/Common/ScrollToTop.jsx",
         "name": "*",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -545,7 +363,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/Common/ScrollToTop.jsx",
         "name": "",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       },
@@ -553,7 +371,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/Common/ScrollToTop.jsx",
         "name": "default",
         "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+          "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
         ],
         "async": false
       }
@@ -580,58 +398,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/InnerPages/Product/Deep Learning.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/InnerPages/Product/Deep Learning.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inner_pages/DeepLearning/page:static/chunks/app/inner_pages/DeepLearning/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/InnerPages/Product/Deep Learning.jsx",
-        "name": "",
-        "chunks": [
-          "app/inner_pages/DeepLearning/page:static/chunks/app/inner_pages/DeepLearning/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/InnerPages/Product/Deep Learning.jsx",
-        "name": "default",
-        "chunks": [
-          "app/inner_pages/DeepLearning/page:static/chunks/app/inner_pages/DeepLearning/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/InnerPages/Product/Audio.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/InnerPages/Product/Audio.jsx",
-        "name": "*",
-        "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/InnerPages/Product/Audio.jsx",
-        "name": "",
-        "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/InnerPages/Product/Audio.jsx",
-        "name": "default",
-        "chunks": [
-          "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
         ],
         "async": false
       }
@@ -1320,7 +1086,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1328,7 +1094,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1336,7 +1102,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1344,7 +1110,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1352,7 +1118,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1360,7 +1126,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1368,7 +1134,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1376,7 +1142,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1384,7 +1150,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1392,7 +1158,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1400,7 +1166,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1408,7 +1174,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1416,7 +1182,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "handleClientScriptLoad",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1424,7 +1190,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "handleClientScriptLoad",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1432,7 +1198,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "initScriptLoader",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1440,31 +1206,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "initScriptLoader",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/Cursor.jsx": {
-      "id": "(app-client)/./src/components/Common/Cursor.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/Cursor.jsx#": {
-      "id": "(app-client)/./src/components/Common/Cursor.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/Cursor.jsx#default": {
-      "id": "(app-client)/./src/components/Common/Cursor.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1472,7 +1214,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/Common/Loader.jsx",
       "name": "*",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1480,7 +1222,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/Common/Loader.jsx",
       "name": "",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1488,180 +1230,15 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/Common/Loader.jsx",
       "name": "default",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ProgressScroll.jsx": {
-      "id": "(app-client)/./src/components/Common/ProgressScroll.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ProgressScroll.jsx#": {
-      "id": "(app-client)/./src/components/Common/ProgressScroll.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ProgressScroll.jsx#default": {
-      "id": "(app-client)/./src/components/Common/ProgressScroll.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ThemeSwitcher.jsx": {
-      "id": "(app-client)/./src/components/Common/ThemeSwitcher.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ThemeSwitcher.jsx#": {
-      "id": "(app-client)/./src/components/Common/ThemeSwitcher.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ThemeSwitcher.jsx#default": {
-      "id": "(app-client)/./src/components/Common/ThemeSwitcher.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/CallToAction.jsx": {
-      "id": "(app-client)/./src/components/Preview/CallToAction.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/CallToAction.jsx#": {
-      "id": "(app-client)/./src/components/Preview/CallToAction.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/CallToAction.jsx#default": {
-      "id": "(app-client)/./src/components/Preview/CallToAction.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Navbar.jsx": {
-      "id": "(app-client)/./src/components/Preview/Navbar.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Navbar.jsx#": {
-      "id": "(app-client)/./src/components/Preview/Navbar.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Navbar.jsx#default": {
-      "id": "(app-client)/./src/components/Preview/Navbar.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Overlay.jsx": {
-      "id": "(app-client)/./src/components/Preview/Overlay.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Overlay.jsx#": {
-      "id": "(app-client)/./src/components/Preview/Overlay.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Overlay.jsx#default": {
-      "id": "(app-client)/./src/components/Preview/Overlay.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Pages.jsx": {
-      "id": "(app-client)/./src/components/Preview/Pages.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Pages.jsx#": {
-      "id": "(app-client)/./src/components/Preview/Pages.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Pages.jsx#default": {
-      "id": "(app-client)/./src/components/Preview/Pages.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/lightgallery/css/lightgallery.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/styles/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/styles/modal-video.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
     },
     "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/MouseCursor.jsx": {
       "id": "(app-client)/./src/components/Common/MouseCursor.jsx",
       "name": "*",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1669,7 +1246,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/Common/MouseCursor.jsx",
       "name": "",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1677,7 +1254,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/Common/MouseCursor.jsx",
       "name": "default",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1685,7 +1262,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/Common/ScrollToTop.jsx",
       "name": "*",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1693,7 +1270,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/Common/ScrollToTop.jsx",
       "name": "",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1701,7 +1278,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/Common/ScrollToTop.jsx",
       "name": "default",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
+        "app/inner_pages/page_product_single/page:static/chunks/app/inner_pages/page_product_single/page.js"
       ],
       "async": false
     },
@@ -1729,53 +1306,26 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Deep Learning.jsx": {
-      "id": "(app-client)/./src/components/InnerPages/Product/Deep Learning.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inner_pages/DeepLearning/page:static/chunks/app/inner_pages/DeepLearning/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Deep Learning.jsx#": {
-      "id": "(app-client)/./src/components/InnerPages/Product/Deep Learning.jsx",
-      "name": "",
-      "chunks": [
-        "app/inner_pages/DeepLearning/page:static/chunks/app/inner_pages/DeepLearning/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Deep Learning.jsx#default": {
-      "id": "(app-client)/./src/components/InnerPages/Product/Deep Learning.jsx",
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/lightgallery/css/lightgallery.css#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/inner_pages/DeepLearning/page:static/chunks/app/inner_pages/DeepLearning/page.js"
-      ],
-      "async": false
+        "static/css/app/layout.css"
+      ]
     },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Audio.jsx": {
-      "id": "(app-client)/./src/components/InnerPages/Product/Audio.jsx",
-      "name": "*",
-      "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Audio.jsx#": {
-      "id": "(app-client)/./src/components/InnerPages/Product/Audio.jsx",
-      "name": "",
-      "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Audio.jsx#default": {
-      "id": "(app-client)/./src/components/InnerPages/Product/Audio.jsx",
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/styles/globals.css#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/inner_pages/Audio/page:static/chunks/app/inner_pages/Audio/page.js"
-      ],
-      "async": false
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/styles/modal-video.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }

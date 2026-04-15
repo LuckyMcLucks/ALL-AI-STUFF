@@ -399,6 +399,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ensemble.to(device)
 ensemble.eval()
 
+
+
+
 @app.post("/predict-audio")
 async def predict_audio(file: UploadFile = File(...)):
     
@@ -428,7 +431,7 @@ async def predict_audio(file: UploadFile = File(...)):
                 # ⚠️ adjust depending on your model output
                 predictions.append(output)
 
-        final_prediction = 1 if predictions.count(1) > 0.75 * len(predictions) else 0
+        final_prediction = 1 if predictions.count(1) > 0.5 * len(predictions) else 0
         confidence = predictions.count(1) / len(predictions)
 
         return {
@@ -440,3 +443,97 @@ async def predict_audio(file: UploadFile = File(...)):
 
     finally:
         os.remove(tmp_path)  # cleanup
+        
+        
+def predict_audio(file,actual_label=None):
+    
+# Save uploaded file temporarily
+
+    # === PIPELINE ===
+    segments = audio_splitter(file, segment_length=10)
+    mel_list = audio_to_log_mel(segments)
+
+    predictions = []
+
+    for mel in mel_list:
+        mel_tensor = (
+            torch.tensor(mel, dtype=torch.float32)
+            .unsqueeze(0)
+            .unsqueeze(0)
+            .to(device)
+        )
+
+        with torch.no_grad():
+            output = ensemble(mel_tensor)
+
+            # convert tensor -> scalar (IMPORTANT)
+            predictions.append(output)
+
+
+    final_prediction = 1 if predictions.count(1) > 0.75 * len(predictions) else 0
+    confidence = predictions.count(1) / len(predictions)
+
+    return {
+        "file"
+        "actual_prediction": actual_label,
+        "final_prediction": final_prediction,
+        "segment_predictions": predictions,
+        "confidence": confidence
+    }
+
+
+        
+from sklearn.metrics import confusion_matrix, classification_report, f1_score, recall_score
+import pandas as pd
+import matplotlib.pyplot as plt
+human = "/home/based/Downloads/archive(2)/KAGGLE/AUDIO/human"
+non_human = "/home/based/Downloads/archive(2)/KAGGLE/AUDIO/nonhuman"
+if __name__ == "__main__":
+    
+    ensemble.eval()
+    all_predictions = []
+    all_labels = []
+    file_names = []
+    for folder, label in [(human, 0), (non_human, 1)]:
+        for file in os.listdir(folder):
+            if file.endswith(".mp3"):
+                file_path = os.path.join(folder, file)
+
+                result = predict_audio(file_path)
+
+                all_predictions.append(result["final_prediction"])
+                all_labels.append(label)
+                file_names.append(file)
+    # save csv
+    df_out = pd.DataFrame({
+        "file": file_names,
+        "true": all_labels,
+        "pred": all_predictions
+    })
+    df_out.to_csv("ensemble_predictions.csv", index=False)
+    cm = confusion_matrix(all_labels, all_predictions)
+
+    plt.figure(figsize=(5, 4))
+    plt.imshow(cm, cmap="Blues")
+    plt.title("Confusion Matrix")
+    plt.colorbar()
+
+    classes = ["0", "1"]
+    tick_marks = np.arange(len(classes))
+
+    plt.xticks(tick_marks, classes)
+    plt.yticks(tick_marks, classes)
+
+    for i in range(cm.shape[0]):
+        for j in range(cm.shape[1]):
+            plt.text(j, i, cm[i, j],
+                    ha="center", va="center",
+                    color="black")
+
+    plt.xlabel("Predicted")
+    plt.ylabel("True")
+    plt.show()
+    f1 = f1_score(all_labels, all_predictions, average="macro")
+    print("F1 Score (macro):", f1)
+
+    print(classification_report(all_labels, all_predictions))
