@@ -41,7 +41,7 @@ async def predict_image(file: UploadFile = File(...)):
 
     nparr = np.frombuffer(image_bytes, np.uint8)
     image = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-    results = infer_pcb_image(image, use_tiling=True, conf=0.01)
+    results = infer_pcb_image(image, use_tiling=False, conf=0.01)
     print(results)
     # Draw bounding boxes   
     annotated = draw_boxes(image, results['boxes'],results['scores'],results['classes'])

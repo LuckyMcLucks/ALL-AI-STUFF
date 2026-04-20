@@ -587,12 +587,12 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/app/layout": [
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/app/layout": [
       "static/css/app/layout.css"
     ]
   },
   "clientModules": {
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -600,7 +600,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -608,7 +608,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -616,7 +616,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -624,7 +624,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -632,7 +632,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -640,15 +640,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -656,7 +648,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -664,7 +664,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -672,7 +672,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -680,7 +680,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -688,7 +688,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -696,7 +696,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -704,7 +704,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -712,7 +712,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -720,15 +720,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -736,7 +728,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -744,7 +744,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -752,7 +752,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -760,7 +760,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -768,7 +768,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -776,7 +776,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -784,7 +784,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -792,7 +792,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -800,15 +800,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -816,7 +808,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -824,7 +824,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -832,7 +832,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -840,7 +840,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -848,7 +848,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -856,7 +856,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -864,7 +864,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -872,7 +872,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -880,7 +880,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -888,7 +888,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -896,7 +896,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -904,7 +904,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -912,7 +912,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -920,7 +920,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -928,7 +928,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -936,7 +936,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -944,7 +944,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -952,7 +952,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -960,7 +960,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -968,7 +968,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -976,7 +976,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -984,7 +984,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -992,7 +992,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -1000,7 +1000,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -1008,7 +1008,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -1016,7 +1016,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -1024,15 +1024,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -1040,7 +1032,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -1048,7 +1048,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -1056,7 +1056,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -1064,7 +1064,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -1072,7 +1072,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -1080,7 +1080,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -1088,15 +1088,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -1104,7 +1096,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -1112,7 +1112,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -1120,7 +1120,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/layout-router.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -1128,7 +1128,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -1136,7 +1136,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/layout-router.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -1144,7 +1144,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/layout-router.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -1152,7 +1152,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/layout-router.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1160,7 +1160,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/layout-router.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1168,7 +1168,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1176,7 +1176,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1184,7 +1184,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/render-from-template-context.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1192,7 +1192,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1200,7 +1200,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/render-from-template-context.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1208,7 +1208,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1216,7 +1216,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1224,7 +1224,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1232,7 +1232,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1240,7 +1240,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1248,7 +1248,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1256,7 +1256,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1264,7 +1264,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/link.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -1272,7 +1272,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/link.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -1280,7 +1280,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/link.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -1288,7 +1288,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/link.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -1296,7 +1296,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/link.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -1304,7 +1304,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/link.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -1312,7 +1312,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
@@ -1320,7 +1320,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
@@ -1328,7 +1328,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
@@ -1336,7 +1336,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
@@ -1344,7 +1344,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
@@ -1352,7 +1352,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
@@ -1360,7 +1360,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js#handleClientScriptLoad": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js#handleClientScriptLoad": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "handleClientScriptLoad",
       "chunks": [
@@ -1368,7 +1368,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js#handleClientScriptLoad": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js#handleClientScriptLoad": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "handleClientScriptLoad",
       "chunks": [
@@ -1376,7 +1376,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js#initScriptLoader": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/client/script.js#initScriptLoader": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "initScriptLoader",
       "chunks": [
@@ -1384,7 +1384,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js#initScriptLoader": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/next/dist/esm/client/script.js#initScriptLoader": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "initScriptLoader",
       "chunks": [
@@ -1392,7 +1392,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/Cursor.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/Cursor.jsx": {
       "id": "(app-client)/./src/components/Common/Cursor.jsx",
       "name": "*",
       "chunks": [
@@ -1400,7 +1400,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/Cursor.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/Cursor.jsx#": {
       "id": "(app-client)/./src/components/Common/Cursor.jsx",
       "name": "",
       "chunks": [
@@ -1408,7 +1408,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/Cursor.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/Cursor.jsx#default": {
       "id": "(app-client)/./src/components/Common/Cursor.jsx",
       "name": "default",
       "chunks": [
@@ -1416,7 +1416,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/Loader.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/Loader.jsx": {
       "id": "(app-client)/./src/components/Common/Loader.jsx",
       "name": "*",
       "chunks": [
@@ -1424,7 +1424,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/Loader.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/Loader.jsx#": {
       "id": "(app-client)/./src/components/Common/Loader.jsx",
       "name": "",
       "chunks": [
@@ -1432,7 +1432,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/Loader.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/Loader.jsx#default": {
       "id": "(app-client)/./src/components/Common/Loader.jsx",
       "name": "default",
       "chunks": [
@@ -1440,7 +1440,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/ProgressScroll.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ProgressScroll.jsx": {
       "id": "(app-client)/./src/components/Common/ProgressScroll.jsx",
       "name": "*",
       "chunks": [
@@ -1448,7 +1448,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/ProgressScroll.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ProgressScroll.jsx#": {
       "id": "(app-client)/./src/components/Common/ProgressScroll.jsx",
       "name": "",
       "chunks": [
@@ -1456,7 +1456,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/ProgressScroll.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ProgressScroll.jsx#default": {
       "id": "(app-client)/./src/components/Common/ProgressScroll.jsx",
       "name": "default",
       "chunks": [
@@ -1464,7 +1464,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/ThemeSwitcher.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ThemeSwitcher.jsx": {
       "id": "(app-client)/./src/components/Common/ThemeSwitcher.jsx",
       "name": "*",
       "chunks": [
@@ -1472,7 +1472,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/ThemeSwitcher.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ThemeSwitcher.jsx#": {
       "id": "(app-client)/./src/components/Common/ThemeSwitcher.jsx",
       "name": "",
       "chunks": [
@@ -1480,7 +1480,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/ThemeSwitcher.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ThemeSwitcher.jsx#default": {
       "id": "(app-client)/./src/components/Common/ThemeSwitcher.jsx",
       "name": "default",
       "chunks": [
@@ -1488,7 +1488,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/CallToAction.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/CallToAction.jsx": {
       "id": "(app-client)/./src/components/Preview/CallToAction.jsx",
       "name": "*",
       "chunks": [
@@ -1496,7 +1496,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/CallToAction.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/CallToAction.jsx#": {
       "id": "(app-client)/./src/components/Preview/CallToAction.jsx",
       "name": "",
       "chunks": [
@@ -1504,7 +1504,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/CallToAction.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/CallToAction.jsx#default": {
       "id": "(app-client)/./src/components/Preview/CallToAction.jsx",
       "name": "default",
       "chunks": [
@@ -1512,7 +1512,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Navbar.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Navbar.jsx": {
       "id": "(app-client)/./src/components/Preview/Navbar.jsx",
       "name": "*",
       "chunks": [
@@ -1520,7 +1520,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Navbar.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Navbar.jsx#": {
       "id": "(app-client)/./src/components/Preview/Navbar.jsx",
       "name": "",
       "chunks": [
@@ -1528,7 +1528,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Navbar.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Navbar.jsx#default": {
       "id": "(app-client)/./src/components/Preview/Navbar.jsx",
       "name": "default",
       "chunks": [
@@ -1536,7 +1536,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Overlay.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Overlay.jsx": {
       "id": "(app-client)/./src/components/Preview/Overlay.jsx",
       "name": "*",
       "chunks": [
@@ -1544,7 +1544,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Overlay.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Overlay.jsx#": {
       "id": "(app-client)/./src/components/Preview/Overlay.jsx",
       "name": "",
       "chunks": [
@@ -1552,7 +1552,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Overlay.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Overlay.jsx#default": {
       "id": "(app-client)/./src/components/Preview/Overlay.jsx",
       "name": "default",
       "chunks": [
@@ -1560,7 +1560,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Pages.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Pages.jsx": {
       "id": "(app-client)/./src/components/Preview/Pages.jsx",
       "name": "*",
       "chunks": [
@@ -1568,7 +1568,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Pages.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Pages.jsx#": {
       "id": "(app-client)/./src/components/Preview/Pages.jsx",
       "name": "",
       "chunks": [
@@ -1576,7 +1576,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Pages.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Preview/Pages.jsx#default": {
       "id": "(app-client)/./src/components/Preview/Pages.jsx",
       "name": "default",
       "chunks": [
@@ -1584,28 +1584,28 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/node_modules/lightgallery/css/lightgallery.css#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/node_modules/lightgallery/css/lightgallery.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/styles/globals.css#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/styles/globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/styles/modal-video.css#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/styles/modal-video.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/MouseCursor.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/MouseCursor.jsx": {
       "id": "(app-client)/./src/components/Common/MouseCursor.jsx",
       "name": "*",
       "chunks": [
@@ -1613,7 +1613,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/MouseCursor.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/MouseCursor.jsx#": {
       "id": "(app-client)/./src/components/Common/MouseCursor.jsx",
       "name": "",
       "chunks": [
@@ -1621,7 +1621,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/MouseCursor.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/MouseCursor.jsx#default": {
       "id": "(app-client)/./src/components/Common/MouseCursor.jsx",
       "name": "default",
       "chunks": [
@@ -1629,7 +1629,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/ScrollToTop.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ScrollToTop.jsx": {
       "id": "(app-client)/./src/components/Common/ScrollToTop.jsx",
       "name": "*",
       "chunks": [
@@ -1637,7 +1637,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/ScrollToTop.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ScrollToTop.jsx#": {
       "id": "(app-client)/./src/components/Common/ScrollToTop.jsx",
       "name": "",
       "chunks": [
@@ -1645,7 +1645,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/Common/ScrollToTop.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/Common/ScrollToTop.jsx#default": {
       "id": "(app-client)/./src/components/Common/ScrollToTop.jsx",
       "name": "default",
       "chunks": [
@@ -1653,7 +1653,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Single.jsx": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Single.jsx": {
       "id": "(app-client)/./src/components/InnerPages/Product/Single.jsx",
       "name": "*",
       "chunks": [
@@ -1661,7 +1661,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Single.jsx#": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Single.jsx#": {
       "id": "(app-client)/./src/components/InnerPages/Product/Single.jsx",
       "name": "",
       "chunks": [
@@ -1669,7 +1669,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/based/Desktop/L/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Single.jsx#default": {
+    "/home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/components/InnerPages/Product/Single.jsx#default": {
       "id": "(app-client)/./src/components/InnerPages/Product/Single.jsx",
       "name": "default",
       "chunks": [

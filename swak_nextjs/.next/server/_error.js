@@ -9,9 +9,19 @@
  */
 (() => {
 var exports = {};
-exports.id = "pages/_error";
-exports.ids = ["pages/_error"];
+exports.id = "/_error";
+exports.ids = ["/_error"];
 exports.modules = {
+
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-route-loader.js?page=%2F_error&absolutePagePath=.%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js&preferredRegion=!":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader.js?page=%2F_error&absolutePagePath=.%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js&preferredRegion=! ***!
+  \********************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport default from dynamic */ _node_modules_next_dist_pages_error_js__WEBPACK_IMPORTED_MODULE_0___default.a)\n/* harmony export */ });\n/* harmony import */ var _node_modules_next_dist_pages_error_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ \"./node_modules/next/dist/pages/_error.js\");\n/* harmony import */ var _node_modules_next_dist_pages_error_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_next_dist_pages_error_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};\n/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_next_dist_pages_error_js__WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== \"default\") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_next_dist_pages_error_js__WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]\n/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);\n\n        // Next.js Route Loader\n        \n        \n    //# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci5qcz9wYWdlPSUyRl9lcnJvciZhYnNvbHV0ZVBhZ2VQYXRoPS4lMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRnBhZ2VzJTJGX2Vycm9yLmpzJnByZWZlcnJlZFJlZ2lvbj0hLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFDQTtBQUNBLFFBQWdFO0FBQ2hFLFFBQTBFO0FBQzFFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc3dha19uZXh0anMvP2Y2NDQiXSwic291cmNlc0NvbnRlbnQiOlsiXG4gICAgICAgIC8vIE5leHQuanMgUm91dGUgTG9hZGVyXG4gICAgICAgIGV4cG9ydCAqIGZyb20gXCIuL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvcGFnZXMvX2Vycm9yLmpzXCJcbiAgICAgICAgZXhwb3J0IHsgZGVmYXVsdCB9IGZyb20gXCIuL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvcGFnZXMvX2Vycm9yLmpzXCJcbiAgICAiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/next/dist/build/webpack/loaders/next-route-loader.js?page=%2F_error&absolutePagePath=.%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js&preferredRegion=!\n");
+
+/***/ }),
 
 /***/ "./node_modules/next/dist/pages/_error.js":
 /*!************************************************!*\
@@ -120,7 +130,7 @@ eval("\n\nfunction _getRequireWildcardCache(nodeInterop) {\n    if (typeof WeakM
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./node_modules/next/dist/pages/_error.js"));
+var __webpack_exports__ = (__webpack_exec__("./node_modules/next/dist/build/webpack/loaders/next-route-loader.js?page=%2F_error&absolutePagePath=.%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js&preferredRegion=!"));
 module.exports = __webpack_exports__;
 
 })();
