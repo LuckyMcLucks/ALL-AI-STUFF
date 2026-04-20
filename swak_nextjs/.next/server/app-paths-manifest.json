@@ -1,3 +1,4 @@
 {
+  "/page": "app/page.js",
   "/inner_pages/page_product_single/page": "app/inner_pages/page_product_single/page.js"
 }
