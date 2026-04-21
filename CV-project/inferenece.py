@@ -50,7 +50,7 @@ async def predict_image(file: UploadFile = File(...)):
     annotated_image = Image.fromarray(annotated)
 
     buf = io.BytesIO()
-    annotated_image.save(buf, format="JPEG")
+    results["visualized_image"].save(buf, format="JPEG")
     buf.seek(0)
 
     return StreamingResponse(buf, media_type="image/jpeg")

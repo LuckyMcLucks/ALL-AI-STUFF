@@ -8,8 +8,8 @@ function Header({ type }) {
       <Navbar darkLogo />
       <div className="header-content text-center">
         <div className="container">
-          <p className="fsz-14 text-uppercase color-blue1 mb-10"> Welcome to our agency </p>
-          <h2 className="fsz-80 text-capitalize"> Product {type} </h2>
+          <p className="fsz-14 text-uppercase color-blue1 mb-10">  </p>
+          <h2 className="fsz-80 text-capitalize"> Audio classifier </h2>
         </div>
       </div>
       <img src="/inner_pages/assets/img/symbol_wh.png" alt="" className="symbol1" />

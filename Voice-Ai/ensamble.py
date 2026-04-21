@@ -433,7 +433,7 @@ async def predict_audio(file: UploadFile = File(...)):
 
         final_prediction = 1 if predictions.count(1) > 0.5 * len(predictions) else 0
         confidence = predictions.count(1) / len(predictions)
-
+        print(f"Predictions: {predictions}, Final: {final_prediction}, Confidence: {confidence:.2f}")
         return {
             "final_prediction": final_prediction,
             "num_segments": len(predictions),
@@ -444,42 +444,7 @@ async def predict_audio(file: UploadFile = File(...)):
     finally:
         os.remove(tmp_path)  # cleanup
         
-        
-def predict_audio(file,actual_label=None):
-    
-# Save uploaded file temporarily
 
-    # === PIPELINE ===
-    segments = audio_splitter(file, segment_length=10)
-    mel_list = audio_to_log_mel(segments)
-
-    predictions = []
-
-    for mel in mel_list:
-        mel_tensor = (
-            torch.tensor(mel, dtype=torch.float32)
-            .unsqueeze(0)
-            .unsqueeze(0)
-            .to(device)
-        )
-
-        with torch.no_grad():
-            output = ensemble(mel_tensor)
-
-            # convert tensor -> scalar (IMPORTANT)
-            predictions.append(output)
-
-
-    final_prediction = 1 if predictions.count(1) > 0.75 * len(predictions) else 0
-    confidence = predictions.count(1) / len(predictions)
-
-    return {
-        "file"
-        "actual_prediction": actual_label,
-        "final_prediction": final_prediction,
-        "segment_predictions": predictions,
-        "confidence": confidence
-    }
 
 
         

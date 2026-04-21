@@ -1,8 +1,8 @@
-// File: /home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/app/inner_pages/page_product_single/page.js
-import * as entry from '../../../../../src/app/inner_pages/page_product_single/page.js'
+// File: /home/based/Desktop/ALL-AI-STUFF/swak_nextjs/src/app/inner_pages/Audio/page.js
+import * as entry from '../../../../../src/app/inner_pages/Audio/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../src/app/inner_pages/page_product_single/page.js')
+type TEntry = typeof import('../../../../../src/app/inner_pages/Audio/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
