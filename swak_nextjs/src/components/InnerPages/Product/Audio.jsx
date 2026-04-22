@@ -140,7 +140,7 @@ function Single() {
 
                     {/* CONFIDENCE */}
                     <p>
-                      Confidence: {(confidence * 100).toFixed(1)}%
+                      Bot chance: {(confidence * 100).toFixed(1)}%
                     </p>
 
                     {/* BAR */}

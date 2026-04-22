@@ -359,11 +359,11 @@ def audio_splitter(file_path, segment_length=10, sample_rate=SAMPLE_RATE):
     return segments
 # ===================MAIN===================
 
-ResNext_checkpoint = torch.load("best_ResNEXT.pth", weights_only=True)
+ResNext_checkpoint = torch.load("best_ResNEXT.pth", weights_only=True, map_location=device)
 
-CRNN_checkpoint = torch.load("best_crnn_model.pth", weights_only=True)
+CRNN_checkpoint = torch.load("best_crnn_model.pth", weights_only=True, map_location=device)
 
-UNetcheckpoint = torch.load("BEST_UNET_10sec.pt", weights_only=True)
+UNetcheckpoint = torch.load("BEST_UNET_10sec.pt", weights_only=True, map_location=device)
 
 
 ResNext = CQC_mode().to(device)
