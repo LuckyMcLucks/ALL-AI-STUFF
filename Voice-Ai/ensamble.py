@@ -384,7 +384,7 @@ import tempfile
 
 app = FastAPI()
 origins = [
-    "http://localhost:3000",  # React dev server
+    "http://13.212.53.197:3000",  # React dev server
 ]
 
 app.add_middleware(
