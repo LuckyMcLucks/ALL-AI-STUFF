@@ -50,7 +50,7 @@ function Single() {
   };
 
   // ✅ Safe derived values
-  const isBot = result?.prediction === true;
+  const isBot = result?.prediction === "True";
   const botProb = result?.confidence ?? 0;
   const humanProb = 1 - botProb;
 
